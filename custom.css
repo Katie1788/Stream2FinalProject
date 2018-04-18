@@ -1,0 +1,15 @@
+
+#house-chart {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 100px;
+    position: relative;
+}
+
+#species-chart {
+     font-family: 'Jolly Lodger', cursive;
+    background: #fffff0;
+}
+
+body {
+    font-family: 'Jolly Lodger', cursive;
+}
