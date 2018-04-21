@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Harry Potter</title>
+    <link href="https://fonts.googleapis.com/css?family=Jolly+Lodger" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/keen-dashboards.css')}}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
@@ -11,12 +12,18 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
      <div class="container-fluid">
          <div class="navbar-header">
-             <a class="navbar-brand" href="./">Harry Potter</a>
+             <a class="navbar-brand">Harry Potter Graphs</a>
          </div>
      </div>
     </div>
 
-                <div class="col-sm-6">
+
+                <div class="col-xs-6">
+                    <h1>
+        Character Name
+    </h1>
+    <p>The below chart shows the species of the most common Harry Potter characters</p>
+
                     <div class="chart-wrapper">
                         <div class="chart-title">
                             Character Name
@@ -27,11 +34,9 @@
                     </div>
                 </div>
 
-
-
-
-
-            <div class="col-sm-6">
+            <div class="col-xs-6">
+                    <h1>Character House</h1>
+    <p>This chart shows the amount of characters in each of the Hogwarts houses.</p>
                 <div class="chart-wrapper">
                     <div class="chart-title">
                         House
@@ -41,11 +46,6 @@
                     </div>
                 </div>
             </div>
-
-
-<div> <h3>Character</h3>
-<div id="character-age"></div></div>
-
     <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
 <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
 <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
@@ -54,5 +54,6 @@
 <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
 <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
 <script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
+
 </body>
 </html>
