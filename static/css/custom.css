@@ -1,17 +1,29 @@
-body {
-    background-image: url("harry-potter.jpg");
-
-    background-size: cover;
-}
 
 #house-chart {
+    font-family: 'Jolly Lodger', cursive;
     font-size: 100px;
     position: relative;
 }
 
 #species-chart {
+     font-family: 'Jolly Lodger', cursive;
     background: #fffff0;
-
-
+    position: relative;
 }
-.outer
+
+body {
+    font-family: 'Jolly Lodger', cursive;
+}
+
+.navbar-brand {
+    float: none;
+    font-size: 40px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    font-size: larger;
+}
