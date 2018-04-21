@@ -16,4 +16,7 @@ I began by downloading and editing the above dataset, and storing it in MongoDB.
 
 mongoimport -d harrypotterprojects -c harryprojects --type csv --file characters.csv --headerline
 
-I then used the command 'mongod'and left this window open, then opened a new command line widow and ran the command 'mongo', and also left this running, in order to work with the data. I created a flask project and structured it as seen above in the github project. I set up the connection to the mongo databse in the harry_potter.py file, and created the html file to display my page, the css file to style it and the javascript file to create the graphs. I tested the finsihed page in multiple browsers to ensure it displayed correctly. I finally deployed the code to heroku to allow it to be displayed. 
+I then used the command 'mongod'and left this window open, then opened a new command line widow and ran the command 'mongo', and also left this running, in order to work with the data. I created a flask project and structured it as seen above in the github project. I set up the connection to the mongo databse in the harry_potter.py file, and created the html file to display my page, the css file to style it and the javascript file to create the graphs. I tested the finsihed page in multiple browsers to ensure it displayed correctly. I finally deployed the code to heroku to allow it to be displayed on the following link;
+
+https://harrypotter-graphs.herokuapp.com/
+ 
